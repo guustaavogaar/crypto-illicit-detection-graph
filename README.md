@@ -1,6 +1,12 @@
 # 🕵️‍♂️ Blockchain Fraud Detection with Graph Neural Networks & Neo4j
-
-Este proyecto es un pipeline *end-to-end* de Ciencia de Datos e Ingeniería de Datos enfocado en la detección de transacciones ilícitas (lavado de dinero, ransomware, estafas) dentro de la red de Bitcoin, utilizando el **Elliptic Data Set**.
+```mermaid
+graph TD
+    A[Elliptic Dataset CSV] -->|Polars ETL| B(Processed Nodes/Edges)
+    B -->|Bulk Load| C[(Neo4j Graph DB)]
+    C -->|NetworkX| D{Feature Engineering}
+    D -->|PageRank/Louvain| E[XGBoost Model]
+    E -->|Predictions| F[Streamlit Dashboard]
+```
 
 El core de este proyecto se basa en aprovechar la **topología de la red de transacciones** para extraer patrones predictivos utilizando **Neo4j**, **Graph Data Science**, **NetworkX** y modelos de **Machine Learning (XGBoost)**.
 
