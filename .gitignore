@@ -1,0 +1,31 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Data and Artifacts (Too large or sensitive for GitHub)
+data/raw/
+data/processed/*.csv
+data/processed/*.parquet
+data/neo4j/
+
+# Temporary Files
+graph_temp.html
+ml_results*.txt
+*.log
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

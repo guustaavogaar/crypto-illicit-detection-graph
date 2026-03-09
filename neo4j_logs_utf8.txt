@@ -1,0 +1,61 @@
+﻿Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Fetching versions.json for Plugin 'graph-data-science' from https://graphdatascience.ninja/versions.json
+Installing Plugin 'graph-data-science' from https://graphdatascience.ninja/neo4j-graph-data-science-2.6.9.jar to /plugins/graph-data-science.jar 
+Applying default values for plugin graph-data-science to neo4j.conf
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+2026-03-09 17:20:11.100+0000 INFO  Logging config in use: File '/var/lib/neo4j/conf/user-logs.xml'
+2026-03-09 17:20:11.115+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2026-03-09 17:20:11.116+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2026-03-09 17:20:11.142+0000 ERROR Invalid memory configuration - exceeds physical memory. Check the configured values for server.memory.pagecache.size and server.memory.heap.max_size
+2026-03-09 17:20:11.146+0000 INFO  Neo4j Server shutdown initiated by request
+2026-03-09 17:20:11.149+0000 INFO  Stopped.
+Warning: Some files inside "/plugins" are not writable from inside container. Changing folder owner to neo4j.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Fetching versions.json for Plugin 'graph-data-science' from https://graphdatascience.ninja/versions.json
+Installing Plugin 'graph-data-science' from https://graphdatascience.ninja/neo4j-graph-data-science-2.6.9.jar to /plugins/graph-data-science.jar 
+Applying default values for plugin graph-data-science to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin graph-data-science because it is already set.
+You may need to add gds.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+2026-03-09 17:23:02.048+0000 INFO  Logging config in use: File '/var/lib/neo4j/conf/user-logs.xml'
+2026-03-09 17:23:02.060+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2026-03-09 17:23:02.061+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2026-03-09 17:23:02.081+0000 ERROR Invalid memory configuration - exceeds physical memory. Check the configured values for server.memory.pagecache.size and server.memory.heap.max_size
+2026-03-09 17:23:02.083+0000 INFO  Neo4j Server shutdown initiated by request
+2026-03-09 17:23:02.085+0000 INFO  Stopped.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Fetching versions.json for Plugin 'graph-data-science' from https://graphdatascience.ninja/versions.json
+Installing Plugin 'graph-data-science' from https://graphdatascience.ninja/neo4j-graph-data-science-2.6.9.jar to /plugins/graph-data-science.jar 
+Applying default values for plugin graph-data-science to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin graph-data-science because it is already set.
+You may need to add gds.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+2026-03-09 17:26:15.628+0000 INFO  Logging config in use: File '/var/lib/neo4j/conf/user-logs.xml'
+2026-03-09 17:26:15.640+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2026-03-09 17:26:15.642+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2026-03-09 17:26:15.660+0000 ERROR Invalid memory configuration - exceeds physical memory. Check the configured values for server.memory.pagecache.size and server.memory.heap.max_size
+2026-03-09 17:26:15.664+0000 INFO  Neo4j Server shutdown initiated by request
+2026-03-09 17:26:15.665+0000 INFO  Stopped.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Fetching versions.json for Plugin 'graph-data-science' from https://graphdatascience.ninja/versions.json
+Installing Plugin 'graph-data-science' from https://graphdatascience.ninja/neo4j-graph-data-science-2.6.9.jar to /plugins/graph-data-science.jar 
+Applying default values for plugin graph-data-science to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin graph-data-science because it is already set.
+You may need to add gds.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+2026-03-09 17:29:40.691+0000 INFO  Logging config in use: File '/var/lib/neo4j/conf/user-logs.xml'
+2026-03-09 17:29:40.711+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2026-03-09 17:29:40.713+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2026-03-09 17:29:40.752+0000 ERROR Invalid memory configuration - exceeds physical memory. Check the configured values for server.memory.pagecache.size and server.memory.heap.max_size
+2026-03-09 17:29:40.754+0000 INFO  Neo4j Server shutdown initiated by request
+2026-03-09 17:29:40.757+0000 INFO  Stopped.

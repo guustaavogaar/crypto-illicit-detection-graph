@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  neo4j:
+    image: neo4j:5.14.0
+    container_name: neo4j_blockchain
+    ports:
+      - "7474:7474" # Interfaz HTTP (Browser)
+      - "7687:7687" # Protocolo Bolt para driver de Python
+    environment:
+      - NEO4J_AUTH=neo4j/password # Cambia la contraseña en producción
+      - NEO4J_PLUGINS=["apoc", "graph-data-science"] # Librerías avanzadas y ciencias de grafos
+    volumes:
+      - ./data/neo4j/data:/data
+      - ./data/neo4j/logs:/logs
+      - ./data/processed:/var/lib/neo4j/import
+      - ./data/neo4j/plugins:/plugins
